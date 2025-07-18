@@ -1,29 +1,30 @@
-# YouTube Clone - React
+# YouTube Clone — React
 
-![Demo GIF](<./public/YoutubeClone%20(1).gif>)
+![Demo GIF](/public/YoutubeClone-ezgif.com-video-to-gif-converter.gif)
 
-## Proje Hakkında
+## Proje Özeti
 
-Bu proje, React, TailwindCSS, react-router-dom ve Axios kullanarak geliştirilmiş tam fonksiyonel bir **YouTube Klonu**dur.  
-YouTube API'si yerine [YT API - RapidAPI](https://rapidapi.com/ytjar/api/yt-api) üzerinden veri çekerek; video arama, detay görüntüleme, yorumlar ve önerilen videolar gibi özellikleri sunar.
+Bu proje, **React**, **TailwindCSS**, **React Router DOM** ve **Axios** kullanılarak geliştirilmiş, temel video oynatma ve listeleme özelliklerini barındıran bir **YouTube Clone** uygulamasıdır.  
+Gerçek YouTube API’si yerine, [YT API (RapidAPI)](https://rapidapi.com/ytjar/api/yt-api) üzerinden veri çekilerek kullanıcılara gerçekçi bir deneyim sunmayı amaçlamaktadır.
 
 ---
 
 ## Özellikler
 
-- Video arama ve sonuçların dinamik listelenmesi
-- Video detay sayfası; video oynatma, kanal bilgisi, açıklama ve yorumlar
-- Responsive tasarım (mobilden masaüstüne uyumlu)
-- React Router ile sayfa navigasyonu
-- API çağrıları Axios ile yapıldı
-- Kullanıcı dostu yükleniyor/spinner ve hata yönetimi
+- 🔍 Video arama ve dinamik sonuç listesi
+- 🎥 Video detay sayfası — oynatma, kanal bilgisi, açıklama ve yorumlar
+- 📋 Önerilen videoların listelenmesi
+- 📱 Duyarlı (Responsive) tasarım
+- 🔄 React Router DOM ile sayfa yönlendirme
+- 📡 Axios ile API entegrasyonu
+- 🔄 Yükleniyor (Spinner) ve hata yönetimi
 
 ---
 
-## Teknolojiler
+## Kullanılan Teknolojiler
 
-- React
-- TailwindCSS
-- react-router-dom
-- Axios
-- RapidAPI - YT API
+- **React JS** — Bileşen tabanlı modern frontend kütüphanesi
+- **TailwindCSS** — Hızlı ve esnek CSS framework
+- **React Router DOM** — SPA yönlendirmeleri
+- **Axios** — HTTP istekleri
+- **YT API (RapidAPI)** — Video verisi sağlama
