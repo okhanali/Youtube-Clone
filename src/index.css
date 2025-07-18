@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+/* Tailwinde Projemizde Kullandığımız Değişkenleri Tanıtalım */
+@theme {
+  /* varsayılan proje fontu */
+  --font-sans: "roboto";
+  /* kendi renk tonlarımız */
+  --color-white: #ffffff;
+  --color-black: #0f0f0f;
+  --color-grey: #3f3f3f;
+}
+
+/* Html elementlerine varsayılan stiller verme */
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+/* Tailwind ile stillendirilmiş kendi class'larımız */
+@layer components {
+  .icon {
+    @apply p-2 hover:bg-grey rounded-full transition;
+  }
+  .sm-hidden {
+    @apply hidden sm:flex items-center justify-center;
+  }
+  .page {
+    @apply h-[calc(100vh-56px)] w-full flex-1 py-6 px-4;
+  }
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f3f3f;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide:-webkit-scrollbar {
+  display: none;
+}
